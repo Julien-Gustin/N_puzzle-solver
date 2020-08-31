@@ -53,7 +53,9 @@ class Npuzzle:
             for j in range(x):
                 N += self.computeInversions(puzzle, i, j)
 
-        return bool(N%2)
+        print(N)
+
+        return bool((N+1)%2)
 
     ''' SHOULD BE STATIC computeInversions
         @bref: compute 'inversion' of puzzle[i][j]
@@ -70,6 +72,7 @@ class Npuzzle:
 
         if number == 'x':
             self.pos = (i, j)
+            return 0
 
         while i < x:
 
