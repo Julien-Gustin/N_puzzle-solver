@@ -1,7 +1,9 @@
-A simple solver of N-puzzle using Astar search state
+A simple solver of N-puzzle using Astar search state ( exercice from Artificial Inteligence a modern approach book )
 
+# Utilisation
 ```sh
 	python3 solver.py
 ```
 
-TODO : Documentation of function
+# TODO :
+	* Documentation of function
