@@ -53,8 +53,6 @@ class Npuzzle:
             for j in range(x):
                 N += self.computeInversions(puzzle, i, j)
 
-        print(N)
-
         return bool((N+1)%2)
 
     ''' SHOULD BE STATIC computeInversions

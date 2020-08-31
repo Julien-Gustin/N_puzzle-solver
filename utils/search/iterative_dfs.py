@@ -14,6 +14,7 @@ def iterative_deepening_search(node):
         result, actions = depth_limited_search(node, depth)
         depth += 1
 
+    actions.reverse()
     return actions
 
 
