@@ -10,7 +10,7 @@ if __name__ == '__main__':
 
     puz = Npuzzle(n)
     print(puz)
-    print("Searching a solution ... \n")
+    print("Searching for a solution ... \n")
     # moves = iterative_deepening_search(puz) not effective
     moves = astar(puz)
     puz.run(moves)
