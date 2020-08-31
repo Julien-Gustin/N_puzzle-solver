@@ -74,10 +74,12 @@ class Npuzzle:
             self.pos = (i, j)
             return 0
 
+        number = int(number)
+
         while i < x:
 
             while j < x:
-                if puzzle[i][j] < number:
+                if puzzle[i][j] != 'x' and int(puzzle[i][j]) < number:
                     N += 1
                 j += 1
 
