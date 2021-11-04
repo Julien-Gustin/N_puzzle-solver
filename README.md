@@ -1,4 +1,4 @@
-# A *simple* solver of N-puzzle using Astar search state
+# A *simple* solver of N-puzzle using A* search
 
 ## Utilisation
 ```sh
